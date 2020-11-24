@@ -9,7 +9,7 @@ resolvers += "quasi-category" at "https://quasi-category.github.io/packages/mave
 
 libraryDependencies ++= {
   val FinagleVersion     = "20.10.0"
-  val Http4sVersion      = "0.21.9"
+  val Http4sVersion      = "0.21.11"
   val TwitterCatsVersion = "0.0.0-1-17fb9ef7"
 
   Seq(
@@ -28,7 +28,7 @@ libraryDependencies ++= {
 }
 
 addCompilerPlugin("org.typelevel"    % "kind-projector"    % "0.11.1" cross CrossVersion.full)
-addCompilerPlugin("com.github.cb372" % "scala-typed-holes" % "0.1.5" cross CrossVersion.full)
+addCompilerPlugin("com.github.cb372" % "scala-typed-holes" % "0.1.6" cross CrossVersion.full)
 
 scalafmtOnCompile := true
 cancelable in Global := true
