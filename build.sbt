@@ -8,7 +8,7 @@ scalacOptions in (Compile, console) --= Seq("-Ywarn-unused:imports", "-Xfatal-wa
 resolvers += "quasi-category" at "https://quasi-category.github.io/packages/maven2"
 
 libraryDependencies ++= {
-  val FinagleVersion     = "20.10.0"
+  val FinagleVersion     = "20.12.0"
   val Http4sVersion      = "0.21.13"
   val TwitterCatsVersion = "0.0.0-1-17fb9ef7"
 
