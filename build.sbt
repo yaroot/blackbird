@@ -1,5 +1,5 @@
 name := "backbird"
-organization := "com.github.quasi-category"
+organization := "com.github.yaroot"
 scalaVersion := "2.13.3"
 crossScalaVersions := Seq("2.12.12", "2.13.3")
 
